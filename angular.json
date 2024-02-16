@@ -68,7 +68,8 @@
               "browserTarget": "marketplace:build:production"
             },
             "development": {
-              "browserTarget": "marketplace:build:development"
+              "browserTarget": "marketplace:build:development",
+              "port": 4203
             }
           },
           "defaultConfiguration": "development"
@@ -100,5 +101,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "703c40c9-f947-4690-8691-7dddd8db793c"
   }
 }
